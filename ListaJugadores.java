@@ -11,31 +11,32 @@ public class ListaJugadores
 {
     Jugador j[];  //definición de un contenedor de jugadores
     int desplazamiento;
-    
+
     public ListaJugadores(int n) //el parametro n define la cantidad de jugadores en juego
     {
-       j = new Jugador[n];  //RESERVA DE ESPACIO para manejar las direcciones a los objetos
-       desplazamiento=0;
+        j = new Jugador[n];  //RESERVA DE ESPACIO para manejar las direcciones a los objetos
+        desplazamiento=0;
+        
     }
-    
-    
+
     /**
      * @param n asigna el nombre al jugador
      */
     public void agregueJugador(String n, int p){
         j[desplazamiento++]= new Jugador(n, p);  // se reserva espacio para el jugador actual
     }
-    
-    
+
     public void mostrar(){
         for (Jugador x:j){ 
             x.mostrarJuador();
         }
     }
 
-    
-    public static void main (){
-        int cantidad = Integer.parseInt(JOptionPane.showInputDialog("Cantidad de jugadores en partida"));
+    // public void agregarPuntos(int jugador,int c1, int c2){
+    // j.agregarPuntaje(c1, c2);
+    // }
+
+    public static void main (int cantidad){
         ListaJugadores listaJ = new ListaJugadores(cantidad);
         String nombre;
         int puntaje = 0;
