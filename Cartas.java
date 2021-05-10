@@ -7,9 +7,11 @@ import javax.swing.*;
  */
 public class Cartas
 {
+    ListaJugadores lj;
     int k,t,n; 
     
-    public Cartas(){
+    public Cartas(int i){
+        lj = new ListaJugadores(i);
         k = 0;
         t = 0;
         n = 0;
@@ -42,7 +44,7 @@ public class Cartas
     }
     
     public static void main(int k, int t, char letra, int numero){
-        Cartas c = new Cartas();
+        Cartas c = new Cartas(k);
         c.creacionCartas(k,t, letra, numero);
     }
 }
