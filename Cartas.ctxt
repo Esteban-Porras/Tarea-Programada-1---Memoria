@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cartas
+comment0.text=\r\n\ @author\ Esteban\ Porras\ Herrera\ C06044\ \r\n\ @version\ 3/5/2021\r\n
+comment1.params=
+comment1.target=Cartas()
+comment2.params=k\ t\ letra\ numero
+comment2.target=void\ creacionCartas(int,\ int,\ char,\ int)
+comment3.params=k\ t\ letra\ numero
+comment3.target=void\ main(int,\ int,\ char,\ int)
+numComments=4
