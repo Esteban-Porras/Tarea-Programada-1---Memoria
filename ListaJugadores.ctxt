@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ListaJugadores
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ListaJugadores\ here.\r\n\ \r\n\ @author\ Esteban\ Porras\ Herrera\ C06044\ \r\n\ @version\ 9/5/2021\r\n
+comment1.params=n
+comment1.target=ListaJugadores(int)
+comment2.params=n\ p
+comment2.target=void\ agregueJugador(java.lang.String,\ int)
+comment2.text=\r\n\ @param\ n\ asigna\ el\ nombre\ al\ jugador\r\n
+comment3.params=
+comment3.target=void\ mostrar()
+comment4.params=
+comment4.target=void\ main()
+numComments=5

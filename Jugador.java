@@ -22,6 +22,6 @@ public class Jugador
     }
     
     public void mostrarJuador(){
-        int hola;
+        JOptionPane.showMessageDialog(null, "Nombre: "+nombre+"  Puntaje: "+puntaje);
     }
 }
