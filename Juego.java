@@ -9,11 +9,22 @@ import javax.swing.*;
  */
 public class Juego
 {
-    Cartas c[][];
+    Cartas c[];
     int desplazamiento;
     
-    public Juego(){
-        
+    public Juego(int n){
+        c = new Cartas[n];
+        desplazamiento=0;
+    }
+    
+    public void agregueCarta(int k, int t){
+        c[desplazamiento++]= new Cartas(k, t);  // se reserva espacio para el jugador actual
+    }
+    
+    public void mostrar(){
+        for (Cartas x: c){ 
+            x.mostrarCarta();
+        }
     }
     
     public static void main(){
@@ -21,13 +32,19 @@ public class Juego
         ListaJugadores lj = new ListaJugadores(i);
         lj.main(i);
         
-        Cartas c = new Cartas();
-
         int k = Integer.parseInt(JOptionPane.showInputDialog("Digite la cantidad de pares que habrá"));
         int t = Integer.parseInt(JOptionPane.showInputDialog("Digite la cantidad de trios que habrá"));
-        char letra = ' ';
-        int numero = 0;
+        int n = (2*k+3*t);
+        
+        Cartas c = new Cartas(k, t);
 
-        c.creacionCartas(k,t, letra, numero);
+        System.out.println("Cantidad de cartas: "+n);
+
+        c.creacionPares();
+        c.creacionTrios();
+        for (int j=0;j<20;j++){
+            lj.agregueCarta();
+        }
+        lj.mostrar();
     }
 }

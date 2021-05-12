@@ -1,8 +1,14 @@
 #BlueJ class context
 comment0.target=Cartas
 comment0.text=\r\n\ @author\ Esteban\ Porras\ Herrera\ C06044\ \r\n\ @version\ 3/5/2021\r\n
-comment1.params=
-comment1.target=Cartas()
-comment2.params=k\ t\ letra\ numero
-comment2.target=void\ creacionCartas(int,\ int,\ char,\ int)
-numComments=3
+comment1.params=k\ t
+comment1.target=Cartas(int,\ int)
+comment2.params=
+comment2.target=void\ creacionPares()
+comment3.params=
+comment3.target=void\ creacionTrios()
+comment4.params=
+comment4.target=java.lang.String\ darCarta()
+comment5.params=
+comment5.target=void\ mostrarCarta()
+numComments=6

@@ -20,11 +20,7 @@ public class Jugador
     public String darJugador(){
         return nombre+" "+puntaje;
     }
-
-    // public void agregarPuntaje(int c1, int c2){
-
-    // }
-
+    
     public void mostrarJuador(){
         JOptionPane.showMessageDialog(null, "Nombre: "+nombre+"  Puntaje: "+puntaje);
     }
