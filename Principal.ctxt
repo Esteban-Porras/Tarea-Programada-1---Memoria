@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Principal
+comment0.text=\r\n\ Clase\ controlador\ que\ permite\ el\ manejo\ de\ todas\ las\ dem\u00E1s\ clases\ as\u00ED\ como\ de\ iniciar\ el\ juego\ mediante\ el\ metodo\ main.\r\n\ \r\n\ @author\ Esteban\ Porras\ Herrera\ C06044\r\n\ @version\ 15/5/2021\r\n
+comment1.params=
+comment1.target=void\ pedirNumeroCarta()
+comment2.params=numero\ pares\ trios
+comment2.target=void\ generarBaraja(int,\ int,\ int)
+comment2.text=\r\n\ Encargada\ de\ crear\ el\ arreglo\ con\ la\ cantidad\ de\ pares\ y\ trios\ establecidos\ en\ la\ clase\ pedirNumeroCarta().\r\n\ \r\n\ @param\ numero\ asigna\ la\ cantidad\ de\ cartas\ totales.\r\n\ @param\ pares\ asgina\ la\ cantidad\ de\ cartas\ dobles\ en\ la\ baraja\r\n\ @param\ trios\ asgina\ la\ cantidad\ de\ cartas\ triples\ en\ la\ baraja\r\n
+comment3.params=baraja\ numero
+comment3.target=boolean\ validarBaraja(Cartas2[],\ int)
+comment3.text=\r\n\ Baraja\ las\ cartas.\r\n\ \r\n\ @param\ baraja[]\ llama\ a\ la\ variable\ creada\ en\ la\ clase\ generarBaraja\r\n\ @param\ numero\ hace\ referencia\ a\ la\ cantidad\ de\ cartas\ generadas.\r\n
+comment4.params=baraja
+comment4.target=void\ imprimirBaraja(Cartas2[])
+comment4.text=\r\n\ Cumple\ la\ funcion\ de\ imprimir\ el\ arreglo\ con\ las\ correspondientes\ cartas.\r\n\ \r\n\ @param\ baraja[]\ llama\ a\ la\ variable\ creada\ en\ la\ clase\ generarBaraja\r\n
+comment5.params=baraja
+comment5.target=void\ pedirPosicion(Cartas2[])
+comment5.text=\r\n\ Le\ solicita\ al\ usuario\ las\ posiciones\ en\ el\ arreglo\ y\ las\ compara.\r\n\ \r\n\ @param\ baraja[]\ llama\ a\ la\ variable\ creada\ en\ la\ clase\ generarBaraja\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Ejecuta\ el\ programa.\r\n
+numComments=7
