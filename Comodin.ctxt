@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Comodin
+comment0.text=\r\n\ Genera\ los\ valores\ bases\ de\ cada\ carta\ comod\u00EDn.\r\n\ \r\n\ @author\ Esteban\ Porras\ Herrera\ C06044\r\n\ @version\ 16/6/2021\r\n
+comment1.params=
+comment1.target=Comodin()
+comment1.text=\r\n\ Constructor\ secundario\ de\ la\ clase\ Comodin.\r\n
+comment2.params=multiplicador
+comment2.target=Comodin(java.lang.String)
+comment2.text=\r\n\ Constructor\ principal\ de\ la\ clase\ Comodin.\r\n\ \r\n\ @param\ multiplicador\ inicializa\ el\ atributo\ multiplicador.\r\n
+comment3.params=l
+comment3.target=void\ setMultiplicador(java.lang.String)
+comment3.text=\r\n\ Establece\ el\ valor\ del\ atributo\ multiplicador.\r\n\ \r\n\ @param\ l\ asigna\ el\ valor\ del\ multiplicador\ de\ la\ clase\ Comod\u00EDn.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getMultiplicador()
+comment4.text=\r\n\ @return\ Retorna\ el\ valor\ del\ atributo\ multiplicador.\r\n
+comment5.params=
+comment5.target=java.lang.String\ darComodin()
+comment5.text=\r\n\ @return\ \ Entrega\ los\ datos\ de\ la\ carta\ comod\u00EDn.\r\n
+numComments=6
